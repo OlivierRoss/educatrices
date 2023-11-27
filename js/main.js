@@ -2,7 +2,7 @@ let decembre = 10;
 
 window.onload = function () {
 	for(let i in contenus) {
-		let jour = i + 1;
+		let jour = parseInt(i) + 1;
 		if(new Date(2023, decembre, jour) < new Date()) {
 			let div = document.createElement("div");
 			div.className = "post-review";
