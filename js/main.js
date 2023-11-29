@@ -8,7 +8,7 @@ window.onload = function () {
 			div.className = "post-review";
 			div.innerHTML = `
 				<h2 class="post-title" style="font-size: 25px"> ${contenus[i].desc}</h2>
-				<p class="post-meta">Créé par les parents le ${jour} décembre 2023</p>
+				<p class="post-meta">Les parents - ${jour} décembre 2023</p>
 			`;
 			document.querySelector("#posts").appendChild(div);
 		}
